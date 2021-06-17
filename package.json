@@ -15,6 +15,10 @@
     "typescript"
   ],
   "main": "index.js",
+  "bin": {
+    "pbjs": "./cli/bin/pbjs",
+    "pbts": "./cli/bin/pbts"
+  },
   "types": "index.d.ts",
   "scripts": {
     "bench": "node bench",
